@@ -1,0 +1,57 @@
+dir_trn = "/home/davis/datasets/aaa-trn/"
+dir_val = "/home/davis/datasets/aaa-val/"
+dir_tst = "/home/davis/datasets/aaa-tst/"
+dir_output = "/home/davis/projects/midl-2024/D1-Freeze-Fine/"
+network_title = "X: Freeze Fine"
+img_file = "img.nii.gz"
+seg_file = "ts-seg-corrected.nii.gz"
+checkpoint_pretrain_file_name = "checkpoint-pretrain.pth.tar"
+checkpoint_last_file_name = "checkpoint-last.pth.tar"
+checkpoint_best_file_name = "checkpoint-best.pth.tar"
+loss_file_name = "loss.png"
+
+itk_num_threads = 16
+device = "cuda"
+num_workers = 4
+pin_memory = true
+
+seed = 9000
+epochs = 50
+
+coarse_spacing = 6
+coarse_shape = [ 80, 64, 64 ]
+coarse_features = [ 16, 32, 64, 128 ]
+coarse_frozen = false
+
+fine_spacing = 0.75
+fine_shape = [ 480, 128, 128 ]
+fine_features = [ 16, 32, 64, 128 ]
+fine_frozen = true
+
+channels = 1
+classes = 2
+
+batch_size = 1
+batch_size_virtual = 1
+
+air_hu = -990
+clip_min = -200
+clip_max = 600
+label_map = [
+  [ 52, 1 ],
+]
+
+augmentation = true
+
+normalization="group"
+pass_features = true
+orthogonal = false
+
+lr_initial = 0.0001
+
+loss_function = "jaccard"
+loss_weight_strategy = "constant"
+loss_weight_fine = 0.0
+loss_weight_slope = 0.1
+loss_weight_hinge = 30
+loss_weight_bleed = 0.4

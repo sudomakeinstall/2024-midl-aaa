@@ -1,0 +1,9 @@
+site_name: AAANet
+site_url: https://example.com
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: black
+plugins:
+  - mkdocstrings
