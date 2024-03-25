@@ -1,0 +1,2448 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://example.com/aaa-net-runner/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../augmentation/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
+    
+    
+      
+        <title>aaa-net-runner - AAANet</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#aaa-net-runner_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="AAANet" class="md-header__button md-logo" aria-label="AAANet" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AAANet
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              aaa-net-runner
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="AAANet" class="md-nav__button md-logo" aria-label="AAANet" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    AAANet
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AAANet
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    aaa-net-runner
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    aaa-net-runner
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aaa-net-runner" class="md-nav__link">
+    <span class="md-ellipsis">
+      aaa-net-runner
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner" class="md-nav__link">
+    <span class="md-ellipsis">
+      AAANetRunner
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AAANetRunner">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.__init__" class="md-nav__link">
+    <span class="md-ellipsis">
+      __init__
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.load_checkpoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      load_checkpoint
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.load_checkpoint_helper" class="md-nav__link">
+    <span class="md-ellipsis">
+      load_checkpoint_helper
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.run_epoch" class="md-nav__link">
+    <span class="md-ellipsis">
+      run_epoch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.save_checkpoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      save_checkpoint
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.set_seeds" class="md-nav__link">
+    <span class="md-ellipsis">
+      set_seeds
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.test" class="md-nav__link">
+    <span class="md-ellipsis">
+      test
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.train" class="md-nav__link">
+    <span class="md-ellipsis">
+      train
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../augmentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    dv.augmentation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datasets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    dv.datasets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geometry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    dv.geometry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../layers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    dv.layers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../loss_functions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    dv.loss_functions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../models/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    dv.models
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../utils/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    dv.utils
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visualization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    dv.visualization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aaa-net-runner" class="md-nav__link">
+    <span class="md-ellipsis">
+      aaa-net-runner
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner" class="md-nav__link">
+    <span class="md-ellipsis">
+      AAANetRunner
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AAANetRunner">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.__init__" class="md-nav__link">
+    <span class="md-ellipsis">
+      __init__
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.load_checkpoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      load_checkpoint
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.load_checkpoint_helper" class="md-nav__link">
+    <span class="md-ellipsis">
+      load_checkpoint_helper
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.run_epoch" class="md-nav__link">
+    <span class="md-ellipsis">
+      run_epoch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.save_checkpoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      save_checkpoint
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.set_seeds" class="md-nav__link">
+    <span class="md-ellipsis">
+      set_seeds
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.test" class="md-nav__link">
+    <span class="md-ellipsis">
+      test
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aaa-net-runner.AAANetRunner.train" class="md-nav__link">
+    <span class="md-ellipsis">
+      train
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="aaa-net-runner_1">aaa-net-runner</h1>
+
+
+<div class="doc doc-object doc-module">
+
+
+
+<a id="aaa-net-runner"></a>
+  <div class="doc doc-contents first">
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-class">
+
+
+
+<h2 id="aaa-net-runner.AAANetRunner" class="doc doc-heading">
+          <code>AAANetRunner</code>
+
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+
+  
+      <p>A class for AAANet training and inference.</p>
+
+            <details class="quote">
+              <summary>Source code in <code>aaa-net-runner.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 21</span>
+<span class="normal"> 22</span>
+<span class="normal"> 23</span>
+<span class="normal"> 24</span>
+<span class="normal"> 25</span>
+<span class="normal"> 26</span>
+<span class="normal"> 27</span>
+<span class="normal"> 28</span>
+<span class="normal"> 29</span>
+<span class="normal"> 30</span>
+<span class="normal"> 31</span>
+<span class="normal"> 32</span>
+<span class="normal"> 33</span>
+<span class="normal"> 34</span>
+<span class="normal"> 35</span>
+<span class="normal"> 36</span>
+<span class="normal"> 37</span>
+<span class="normal"> 38</span>
+<span class="normal"> 39</span>
+<span class="normal"> 40</span>
+<span class="normal"> 41</span>
+<span class="normal"> 42</span>
+<span class="normal"> 43</span>
+<span class="normal"> 44</span>
+<span class="normal"> 45</span>
+<span class="normal"> 46</span>
+<span class="normal"> 47</span>
+<span class="normal"> 48</span>
+<span class="normal"> 49</span>
+<span class="normal"> 50</span>
+<span class="normal"> 51</span>
+<span class="normal"> 52</span>
+<span class="normal"> 53</span>
+<span class="normal"> 54</span>
+<span class="normal"> 55</span>
+<span class="normal"> 56</span>
+<span class="normal"> 57</span>
+<span class="normal"> 58</span>
+<span class="normal"> 59</span>
+<span class="normal"> 60</span>
+<span class="normal"> 61</span>
+<span class="normal"> 62</span>
+<span class="normal"> 63</span>
+<span class="normal"> 64</span>
+<span class="normal"> 65</span>
+<span class="normal"> 66</span>
+<span class="normal"> 67</span>
+<span class="normal"> 68</span>
+<span class="normal"> 69</span>
+<span class="normal"> 70</span>
+<span class="normal"> 71</span>
+<span class="normal"> 72</span>
+<span class="normal"> 73</span>
+<span class="normal"> 74</span>
+<span class="normal"> 75</span>
+<span class="normal"> 76</span>
+<span class="normal"> 77</span>
+<span class="normal"> 78</span>
+<span class="normal"> 79</span>
+<span class="normal"> 80</span>
+<span class="normal"> 81</span>
+<span class="normal"> 82</span>
+<span class="normal"> 83</span>
+<span class="normal"> 84</span>
+<span class="normal"> 85</span>
+<span class="normal"> 86</span>
+<span class="normal"> 87</span>
+<span class="normal"> 88</span>
+<span class="normal"> 89</span>
+<span class="normal"> 90</span>
+<span class="normal"> 91</span>
+<span class="normal"> 92</span>
+<span class="normal"> 93</span>
+<span class="normal"> 94</span>
+<span class="normal"> 95</span>
+<span class="normal"> 96</span>
+<span class="normal"> 97</span>
+<span class="normal"> 98</span>
+<span class="normal"> 99</span>
+<span class="normal">100</span>
+<span class="normal">101</span>
+<span class="normal">102</span>
+<span class="normal">103</span>
+<span class="normal">104</span>
+<span class="normal">105</span>
+<span class="normal">106</span>
+<span class="normal">107</span>
+<span class="normal">108</span>
+<span class="normal">109</span>
+<span class="normal">110</span>
+<span class="normal">111</span>
+<span class="normal">112</span>
+<span class="normal">113</span>
+<span class="normal">114</span>
+<span class="normal">115</span>
+<span class="normal">116</span>
+<span class="normal">117</span>
+<span class="normal">118</span>
+<span class="normal">119</span>
+<span class="normal">120</span>
+<span class="normal">121</span>
+<span class="normal">122</span>
+<span class="normal">123</span>
+<span class="normal">124</span>
+<span class="normal">125</span>
+<span class="normal">126</span>
+<span class="normal">127</span>
+<span class="normal">128</span>
+<span class="normal">129</span>
+<span class="normal">130</span>
+<span class="normal">131</span>
+<span class="normal">132</span>
+<span class="normal">133</span>
+<span class="normal">134</span>
+<span class="normal">135</span>
+<span class="normal">136</span>
+<span class="normal">137</span>
+<span class="normal">138</span>
+<span class="normal">139</span>
+<span class="normal">140</span>
+<span class="normal">141</span>
+<span class="normal">142</span>
+<span class="normal">143</span>
+<span class="normal">144</span>
+<span class="normal">145</span>
+<span class="normal">146</span>
+<span class="normal">147</span>
+<span class="normal">148</span>
+<span class="normal">149</span>
+<span class="normal">150</span>
+<span class="normal">151</span>
+<span class="normal">152</span>
+<span class="normal">153</span>
+<span class="normal">154</span>
+<span class="normal">155</span>
+<span class="normal">156</span>
+<span class="normal">157</span>
+<span class="normal">158</span>
+<span class="normal">159</span>
+<span class="normal">160</span>
+<span class="normal">161</span>
+<span class="normal">162</span>
+<span class="normal">163</span>
+<span class="normal">164</span>
+<span class="normal">165</span>
+<span class="normal">166</span>
+<span class="normal">167</span>
+<span class="normal">168</span>
+<span class="normal">169</span>
+<span class="normal">170</span>
+<span class="normal">171</span>
+<span class="normal">172</span>
+<span class="normal">173</span>
+<span class="normal">174</span>
+<span class="normal">175</span>
+<span class="normal">176</span>
+<span class="normal">177</span>
+<span class="normal">178</span>
+<span class="normal">179</span>
+<span class="normal">180</span>
+<span class="normal">181</span>
+<span class="normal">182</span>
+<span class="normal">183</span>
+<span class="normal">184</span>
+<span class="normal">185</span>
+<span class="normal">186</span>
+<span class="normal">187</span>
+<span class="normal">188</span>
+<span class="normal">189</span>
+<span class="normal">190</span>
+<span class="normal">191</span>
+<span class="normal">192</span>
+<span class="normal">193</span>
+<span class="normal">194</span>
+<span class="normal">195</span>
+<span class="normal">196</span>
+<span class="normal">197</span>
+<span class="normal">198</span>
+<span class="normal">199</span>
+<span class="normal">200</span>
+<span class="normal">201</span>
+<span class="normal">202</span>
+<span class="normal">203</span>
+<span class="normal">204</span>
+<span class="normal">205</span>
+<span class="normal">206</span>
+<span class="normal">207</span>
+<span class="normal">208</span>
+<span class="normal">209</span>
+<span class="normal">210</span>
+<span class="normal">211</span>
+<span class="normal">212</span>
+<span class="normal">213</span>
+<span class="normal">214</span>
+<span class="normal">215</span>
+<span class="normal">216</span>
+<span class="normal">217</span>
+<span class="normal">218</span>
+<span class="normal">219</span>
+<span class="normal">220</span>
+<span class="normal">221</span>
+<span class="normal">222</span>
+<span class="normal">223</span>
+<span class="normal">224</span>
+<span class="normal">225</span>
+<span class="normal">226</span>
+<span class="normal">227</span>
+<span class="normal">228</span>
+<span class="normal">229</span>
+<span class="normal">230</span>
+<span class="normal">231</span>
+<span class="normal">232</span>
+<span class="normal">233</span>
+<span class="normal">234</span>
+<span class="normal">235</span>
+<span class="normal">236</span>
+<span class="normal">237</span>
+<span class="normal">238</span>
+<span class="normal">239</span>
+<span class="normal">240</span>
+<span class="normal">241</span>
+<span class="normal">242</span>
+<span class="normal">243</span>
+<span class="normal">244</span>
+<span class="normal">245</span>
+<span class="normal">246</span>
+<span class="normal">247</span>
+<span class="normal">248</span>
+<span class="normal">249</span>
+<span class="normal">250</span>
+<span class="normal">251</span>
+<span class="normal">252</span>
+<span class="normal">253</span>
+<span class="normal">254</span>
+<span class="normal">255</span>
+<span class="normal">256</span>
+<span class="normal">257</span>
+<span class="normal">258</span>
+<span class="normal">259</span>
+<span class="normal">260</span>
+<span class="normal">261</span>
+<span class="normal">262</span>
+<span class="normal">263</span>
+<span class="normal">264</span>
+<span class="normal">265</span>
+<span class="normal">266</span>
+<span class="normal">267</span>
+<span class="normal">268</span>
+<span class="normal">269</span>
+<span class="normal">270</span>
+<span class="normal">271</span>
+<span class="normal">272</span>
+<span class="normal">273</span>
+<span class="normal">274</span>
+<span class="normal">275</span>
+<span class="normal">276</span>
+<span class="normal">277</span>
+<span class="normal">278</span>
+<span class="normal">279</span>
+<span class="normal">280</span>
+<span class="normal">281</span>
+<span class="normal">282</span>
+<span class="normal">283</span>
+<span class="normal">284</span>
+<span class="normal">285</span>
+<span class="normal">286</span>
+<span class="normal">287</span>
+<span class="normal">288</span>
+<span class="normal">289</span>
+<span class="normal">290</span>
+<span class="normal">291</span>
+<span class="normal">292</span>
+<span class="normal">293</span>
+<span class="normal">294</span>
+<span class="normal">295</span>
+<span class="normal">296</span>
+<span class="normal">297</span>
+<span class="normal">298</span>
+<span class="normal">299</span>
+<span class="normal">300</span>
+<span class="normal">301</span>
+<span class="normal">302</span>
+<span class="normal">303</span>
+<span class="normal">304</span>
+<span class="normal">305</span>
+<span class="normal">306</span>
+<span class="normal">307</span>
+<span class="normal">308</span>
+<span class="normal">309</span>
+<span class="normal">310</span>
+<span class="normal">311</span>
+<span class="normal">312</span>
+<span class="normal">313</span>
+<span class="normal">314</span>
+<span class="normal">315</span>
+<span class="normal">316</span>
+<span class="normal">317</span>
+<span class="normal">318</span>
+<span class="normal">319</span>
+<span class="normal">320</span>
+<span class="normal">321</span>
+<span class="normal">322</span>
+<span class="normal">323</span>
+<span class="normal">324</span>
+<span class="normal">325</span>
+<span class="normal">326</span>
+<span class="normal">327</span>
+<span class="normal">328</span>
+<span class="normal">329</span>
+<span class="normal">330</span>
+<span class="normal">331</span>
+<span class="normal">332</span>
+<span class="normal">333</span>
+<span class="normal">334</span>
+<span class="normal">335</span>
+<span class="normal">336</span>
+<span class="normal">337</span>
+<span class="normal">338</span>
+<span class="normal">339</span>
+<span class="normal">340</span>
+<span class="normal">341</span>
+<span class="normal">342</span>
+<span class="normal">343</span>
+<span class="normal">344</span>
+<span class="normal">345</span>
+<span class="normal">346</span>
+<span class="normal">347</span>
+<span class="normal">348</span>
+<span class="normal">349</span>
+<span class="normal">350</span>
+<span class="normal">351</span>
+<span class="normal">352</span>
+<span class="normal">353</span>
+<span class="normal">354</span>
+<span class="normal">355</span>
+<span class="normal">356</span>
+<span class="normal">357</span>
+<span class="normal">358</span>
+<span class="normal">359</span>
+<span class="normal">360</span>
+<span class="normal">361</span>
+<span class="normal">362</span>
+<span class="normal">363</span>
+<span class="normal">364</span>
+<span class="normal">365</span>
+<span class="normal">366</span>
+<span class="normal">367</span>
+<span class="normal">368</span>
+<span class="normal">369</span>
+<span class="normal">370</span>
+<span class="normal">371</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">AAANetRunner</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A class for AAANet training and inference.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">exp_path</span><span class="p">:</span> <span class="n">pl</span><span class="o">.</span><span class="n">Path</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Initialize the AAANetRunner class.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            exp_path: Path to the `toml` format experiment file.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">exp_path</span> <span class="o">=</span> <span class="n">exp_path</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">exp</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">Experiment</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp_path</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_seeds</span><span class="p">()</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">AAANet</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">coarse_requires_grad</span><span class="p">(</span><span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">coarse_frozen</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">fine_requires_grad</span><span class="p">(</span><span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">fine_frozen</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">optimizer</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">optim</span><span class="o">.</span><span class="n">Adam</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">lr_initial</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">scaler</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">amp</span><span class="o">.</span><span class="n">GradScaler</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">loss_function</span> <span class="o">==</span> <span class="s2">&quot;cross_entropy&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_fn</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">CrossEntropyLoss</span><span class="p">(</span>
+                <span class="n">weight</span><span class="o">=</span><span class="n">t</span><span class="o">.</span><span class="n">Tensor</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">class_weights</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+            <span class="p">)</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">loss_function</span> <span class="o">==</span> <span class="s2">&quot;jaccard&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_fn</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">loss_functions</span><span class="o">.</span><span class="n">JaccardLoss</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="kc">False</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Loss function &#39;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">loss_function</span><span class="si">}</span><span class="s2">&#39; not recognized.&quot;</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">BasicDataset</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="p">)</span>
+
+        <span class="c1"># Training</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset_trn</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">Subset</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">get_trn_indices</span><span class="p">(),</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataloader_trn</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">DataLoader</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset_trn</span><span class="p">,</span>
+            <span class="n">batch_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span>
+            <span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">num_workers</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">num_workers</span><span class="p">,</span>
+            <span class="n">pin_memory</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">pin_memory</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_trn</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_trn</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_trn</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_trn</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">time_trn</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="c1"># Validation</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset_val</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">Subset</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">get_val_indices</span><span class="p">(),</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataloader_val</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">DataLoader</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset_val</span><span class="p">,</span>
+            <span class="n">batch_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span>
+            <span class="n">shuffle</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">num_workers</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">num_workers</span><span class="p">,</span>
+            <span class="n">pin_memory</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">pin_memory</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_val</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_val</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_val</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">time_val</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="c1"># Testing</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset_tst</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">Subset</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="p">,</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">get_tst_indices</span><span class="p">(),</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataloader_tst</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">DataLoader</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset_tst</span><span class="p">,</span>
+            <span class="n">batch_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span>
+            <span class="n">shuffle</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="n">num_workers</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">num_workers</span><span class="p">,</span>
+            <span class="n">pin_memory</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">pin_memory</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_tst</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_tst</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_tst</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_tst</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">time_tst</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">def</span> <span class="nf">set_seeds</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Set PyTorch, Numpy, and Python seeds to reduce stochastic effects.&quot;&quot;&quot;</span>
+        <span class="n">t</span><span class="o">.</span><span class="n">manual_seed</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">seed</span><span class="p">)</span>
+        <span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">seed</span><span class="p">)</span>
+        <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">seed</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">train</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Alternate between training and validation runs for the number of epochs specified in the experiment file.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">dir_output</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">epochs</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">epoch</span> <span class="o">=</span> <span class="n">e</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">run_epoch</span><span class="p">(</span><span class="s2">&quot;trn&quot;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">run_epoch</span><span class="p">(</span><span class="s2">&quot;val&quot;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">save_checkpoint</span><span class="p">()</span>
+
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Coarse loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_val</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Centroid loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_val</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Transform loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_val</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Fine loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Run on the test set.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">run_epoch</span><span class="p">(</span><span class="s2">&quot;tst&quot;</span><span class="p">,</span> <span class="n">show</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">save_checkpoint</span><span class="p">()</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Coarse loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_tst</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Centroid loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_tst</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Transform loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_tst</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Fine loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_tst</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">run_epoch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">:</span> <span class="n">ty</span><span class="o">.</span><span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;trn&quot;</span><span class="p">,</span> <span class="s2">&quot;val&quot;</span><span class="p">,</span> <span class="s2">&quot;tst&quot;</span><span class="p">],</span> <span class="n">show</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Run a single epoch.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            mode: Specify training, validation, or testing.</span>
+<span class="sd">            show: Specify whether to display the result.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">assert</span> <span class="n">mode</span> <span class="ow">in</span> <span class="p">{</span><span class="s2">&quot;trn&quot;</span><span class="p">,</span> <span class="s2">&quot;val&quot;</span><span class="p">,</span> <span class="s2">&quot;tst&quot;</span><span class="p">},</span> <span class="s2">&quot;Mode not recognized.&quot;</span>
+
+        <span class="k">if</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;trn&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">train</span><span class="p">()</span>
+            <span class="n">loop</span> <span class="o">=</span> <span class="n">tqdm</span><span class="o">.</span><span class="n">tqdm</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dataloader_trn</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">augmentation</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">augmentation</span>
+        <span class="k">elif</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;val&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">eval</span><span class="p">()</span>
+            <span class="n">loop</span> <span class="o">=</span> <span class="n">tqdm</span><span class="o">.</span><span class="n">tqdm</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dataloader_val</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">augmentation</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">elif</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;tst&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">eval</span><span class="p">()</span>
+            <span class="n">loop</span> <span class="o">=</span> <span class="n">tqdm</span><span class="o">.</span><span class="n">tqdm</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dataloader_tst</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">augmentation</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Mode not recognized.&quot;</span>
+
+        <span class="n">N</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">loop</span><span class="p">)</span>
+
+        <span class="n">loop</span><span class="o">.</span><span class="n">set_postfix</span><span class="p">(</span><span class="n">epoch</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">epoch</span><span class="p">)</span>
+        <span class="n">epoch_seg_coarse_loss</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">epoch_centroid_loss</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">epoch_transform_loss</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">epoch_seg_fine_loss</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="n">start_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">perf_counter</span><span class="p">()</span>
+
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">gt</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">loop</span><span class="p">):</span>
+            <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;img&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;img&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+            <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+            <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg_coarse&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">functional</span><span class="o">.</span><span class="n">grid_sample</span><span class="p">(</span>
+                <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg&quot;</span><span class="p">],</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">coarse_points</span><span class="p">,</span>
+                <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;bilinear&quot;</span><span class="p">,</span>
+                <span class="n">align_corners</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+            <span class="p">)</span>
+
+            <span class="n">transform</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">geometry</span><span class="o">.</span><span class="n">transform_from_seg</span><span class="p">(</span>
+                <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg_coarse&quot;</span><span class="p">][:,</span> <span class="mi">1</span><span class="p">:,</span> <span class="p">:]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_new_axis</span><span class="p">()</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">),</span>
+            <span class="p">)</span>
+
+            <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;transform&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">rm</span><span class="o">.</span><span class="n">RigidUnitQuat</span><span class="p">(</span>
+                <span class="n">linear</span><span class="o">=</span><span class="n">transform</span><span class="p">[</span><span class="s2">&quot;quaternion&quot;</span><span class="p">],</span> <span class="n">translation</span><span class="o">=</span><span class="n">transform</span><span class="p">[</span><span class="s2">&quot;centroid&quot;</span><span class="p">]</span>
+            <span class="p">)</span>
+
+            <span class="c1"># Forward</span>
+            <span class="k">with</span> <span class="n">t</span><span class="o">.</span><span class="n">inference_mode</span><span class="p">(</span><span class="n">mode</span> <span class="ow">in</span> <span class="p">{</span><span class="s2">&quot;val&quot;</span><span class="p">,</span> <span class="s2">&quot;tst&quot;</span><span class="p">}):</span>
+                <span class="k">with</span> <span class="n">t</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">amp</span><span class="o">.</span><span class="n">autocast</span><span class="p">():</span>
+                    <span class="n">pd</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="p">(</span><span class="n">gt</span><span class="p">[</span><span class="s2">&quot;img&quot;</span><span class="p">])</span>
+
+                    <span class="c1"># Upsample segmentation to original resolution.</span>
+                    <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;coarse_upsampled&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">functional</span><span class="o">.</span><span class="n">grid_sample</span><span class="p">(</span>
+                        <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;coarse&quot;</span><span class="p">],</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">input_points</span><span class="p">,</span>
+                        <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;bilinear&quot;</span><span class="p">,</span>
+                        <span class="n">align_corners</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                        <span class="n">padding_mode</span><span class="o">=</span><span class="s2">&quot;border&quot;</span><span class="p">,</span>
+                    <span class="p">)</span>
+                    <span class="k">if</span> <span class="n">show</span><span class="p">:</span>
+                        <span class="n">dv</span><span class="o">.</span><span class="n">visualization</span><span class="o">.</span><span class="n">Viewer3D</span><span class="p">(</span>
+                            <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;img&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">cpu</span><span class="p">(),</span>
+                            <span class="n">t</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">pd</span><span class="p">[</span><span class="s2">&quot;coarse_upsampled&quot;</span><span class="p">],</span> <span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">cpu</span><span class="p">(),</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">labels</span><span class="p">,</span>
+                            <span class="n">slices</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+                        <span class="p">)</span>
+                    <span class="n">seg_coarse_loss</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_fn</span><span class="p">(</span><span class="n">pd</span><span class="p">[</span><span class="s2">&quot;coarse_upsampled&quot;</span><span class="p">],</span> <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg&quot;</span><span class="p">])</span>
+
+                    <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;transform_i&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;transform&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">normalize</span><span class="p">()</span><span class="o">.</span><span class="n">inverse</span><span class="p">()</span>
+
+                    <span class="n">fp_i</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">calculate_fine_points</span><span class="p">(</span>
+                        <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;transform_i&quot;</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">input_shape</span><span class="p">(),</span> <span class="n">inverse</span><span class="o">=</span><span class="kc">True</span>
+                    <span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+
+                    <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;fine_upsampled&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">functional</span><span class="o">.</span><span class="n">grid_sample</span><span class="p">(</span>
+                        <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;fine&quot;</span><span class="p">],</span>
+                        <span class="n">fp_i</span><span class="p">,</span>
+                        <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;bilinear&quot;</span><span class="p">,</span>
+                        <span class="n">align_corners</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                        <span class="n">padding_mode</span><span class="o">=</span><span class="s2">&quot;border&quot;</span><span class="p">,</span>
+                    <span class="p">)</span>
+                    <span class="k">if</span> <span class="n">show</span><span class="p">:</span>
+                        <span class="n">fp</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">calculate_fine_points</span><span class="p">(</span>
+                            <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;transform&quot;</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">fine_shape</span>
+                        <span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+                        <span class="n">img_fine</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">functional</span><span class="o">.</span><span class="n">grid_sample</span><span class="p">(</span>
+                            <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;img&quot;</span><span class="p">],</span> <span class="n">fp</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;bilinear&quot;</span><span class="p">,</span> <span class="n">align_corners</span><span class="o">=</span><span class="kc">False</span>
+                        <span class="p">)</span>
+                        <span class="n">dv</span><span class="o">.</span><span class="n">visualization</span><span class="o">.</span><span class="n">Viewer3D</span><span class="p">(</span>
+                            <span class="n">img_fine</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">cpu</span><span class="p">(),</span>
+                            <span class="n">t</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">pd</span><span class="p">[</span><span class="s2">&quot;fine&quot;</span><span class="p">],</span> <span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">cpu</span><span class="p">(),</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">labels</span><span class="p">,</span>
+                            <span class="n">slices</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+                        <span class="p">)</span>
+
+                    <span class="n">seg_fine_loss</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_fn</span><span class="p">(</span><span class="n">pd</span><span class="p">[</span><span class="s2">&quot;fine_upsampled&quot;</span><span class="p">],</span> <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg&quot;</span><span class="p">])</span>
+                    <span class="n">seg_fine_loss_weight</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">fine_loss_weight</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">epoch</span><span class="p">)</span>
+
+                    <span class="n">sum_loss</span> <span class="o">=</span> <span class="p">(</span>
+                        <span class="n">seg_coarse_loss</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">seg_fine_loss_weight</span><span class="p">)</span>
+                        <span class="o">+</span> <span class="n">seg_fine_loss</span> <span class="o">*</span> <span class="n">seg_fine_loss_weight</span>
+                    <span class="p">)</span>
+
+                    <span class="n">centroid_error</span> <span class="o">=</span> <span class="p">(</span>
+                        <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;transform&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">translation</span> <span class="o">-</span> <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;transform&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">translation</span>
+                    <span class="p">)</span>
+                    <span class="n">centroid_error</span> <span class="o">=</span> <span class="n">centroid_error</span><span class="o">.</span><span class="n">flip</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+                    <span class="n">centroid_error</span> <span class="o">=</span> <span class="n">centroid_error</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">coarse_fov</span> <span class="o">/</span> <span class="mi">2</span>
+                    <span class="n">centroid_error</span> <span class="o">=</span> <span class="n">centroid_error</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+
+                    <span class="n">angle_error</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">geometry</span><span class="o">.</span><span class="n">angle</span><span class="p">(</span>
+                        <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;axis&quot;</span><span class="p">],</span> <span class="n">transform</span><span class="p">[</span><span class="s2">&quot;axis&quot;</span><span class="p">]</span>
+                    <span class="p">)</span><span class="o">.</span><span class="n">squeeze</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+
+                    <span class="n">epoch_seg_coarse_loss</span> <span class="o">+=</span> <span class="n">seg_coarse_loss</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+                    <span class="n">epoch_centroid_loss</span> <span class="o">+=</span> <span class="n">centroid_error</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+                    <span class="n">epoch_transform_loss</span> <span class="o">+=</span> <span class="n">angle_error</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+                    <span class="n">epoch_seg_fine_loss</span> <span class="o">+=</span> <span class="n">seg_fine_loss</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+
+            <span class="c1"># Backward</span>
+            <span class="k">if</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;trn&quot;</span><span class="p">:</span>
+                <span class="n">sum_loss_scale</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">uneven_batch_size</span><span class="p">(</span>
+                    <span class="n">i</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">batch_size_virtual</span><span class="p">,</span> <span class="n">N</span>
+                <span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">scaler</span><span class="o">.</span><span class="n">scale</span><span class="p">(</span><span class="n">sum_loss</span> <span class="o">/</span> <span class="n">sum_loss_scale</span><span class="p">)</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>
+                <span class="k">if</span> <span class="p">((</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">batch_size_virtual</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">((</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="n">N</span><span class="p">):</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">scaler</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">optimizer</span><span class="p">)</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">scaler</span><span class="o">.</span><span class="n">update</span><span class="p">()</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">optimizer</span><span class="o">.</span><span class="n">zero_grad</span><span class="p">()</span>
+
+        <span class="n">epoch_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">perf_counter</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span>
+
+        <span class="k">if</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;trn&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_trn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_coarse_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_trn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_centroid_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_trn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_transform_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_trn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_fine_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">time_trn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_time</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;val&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_val</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_coarse_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_val</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_centroid_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_val</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_transform_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_fine_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">time_val</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_time</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;tst&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_tst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_coarse_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_tst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_centroid_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_tst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_transform_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_tst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_fine_loss</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">time_tst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_time</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Mode not recognized.&quot;</span>
+
+    <span class="k">def</span> <span class="nf">save_checkpoint</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Save `checkpoint_last` (always).  Additionally save `checkpoint_best` if this run represents the lowest recorded validation error (or if none has been previously recorded).&quot;&quot;&quot;</span>
+        <span class="n">checkpoint</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;epoch&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">epoch</span><span class="p">,</span>
+            <span class="s2">&quot;model_state_dict&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">state_dict</span><span class="p">(),</span>
+            <span class="s2">&quot;optimizer_state_dict&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">optimizer</span><span class="o">.</span><span class="n">state_dict</span><span class="p">(),</span>
+            <span class="s2">&quot;loss_seg_coarse_trn&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_trn</span><span class="p">,</span>
+            <span class="s2">&quot;loss_centroid_trn&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_trn</span><span class="p">,</span>
+            <span class="s2">&quot;loss_transform_trn&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_trn</span><span class="p">,</span>
+            <span class="s2">&quot;loss_seg_fine_trn&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_trn</span><span class="p">,</span>
+            <span class="s2">&quot;time_trn&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">time_trn</span><span class="p">,</span>
+            <span class="s2">&quot;loss_seg_coarse_val&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_val</span><span class="p">,</span>
+            <span class="s2">&quot;loss_centroid_val&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_val</span><span class="p">,</span>
+            <span class="s2">&quot;loss_transform_val&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_val</span><span class="p">,</span>
+            <span class="s2">&quot;loss_seg_fine_val&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="p">,</span>
+            <span class="s2">&quot;time_val&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">time_val</span><span class="p">,</span>
+            <span class="s2">&quot;loss_seg_coarse_tst&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_tst</span><span class="p">,</span>
+            <span class="s2">&quot;loss_centroid_tst&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_tst</span><span class="p">,</span>
+            <span class="s2">&quot;loss_transform_tst&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_tst</span><span class="p">,</span>
+            <span class="s2">&quot;loss_seg_fine_tst&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_tst</span><span class="p">,</span>
+            <span class="s2">&quot;time_tst&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">time_tst</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="n">t</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">checkpoint</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_checkpoint_last_path</span><span class="p">())</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="ow">or</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="nb">min</span><span class="p">(</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="p">):</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;New lowest validation loss; saving checkpoint.&quot;</span><span class="p">)</span>
+            <span class="n">t</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">checkpoint</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_checkpoint_best_path</span><span class="p">())</span>
+
+    <span class="k">def</span> <span class="nf">load_checkpoint</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="n">pl</span><span class="o">.</span><span class="n">Path</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Load checkpoint from path.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            path: Path to checkpoint.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">checkpoint</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">epoch</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;epoch&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">load_state_dict</span><span class="p">(</span><span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;model_state_dict&quot;</span><span class="p">])</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">optimizer</span><span class="o">.</span><span class="n">load_state_dict</span><span class="p">(</span><span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;optimizer_state_dict&quot;</span><span class="p">])</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_trn</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_coarse_trn&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_trn</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_centroid_trn&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_trn</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_transform_trn&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_trn</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_fine_trn&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">time_trn</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;time_trn&quot;</span><span class="p">]</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_val</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_coarse_val&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_val</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_centroid_val&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_val</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_transform_val&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_fine_val&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">time_val</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;time_val&quot;</span><span class="p">]</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_tst</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_coarse_tst&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_tst</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_centroid_tst&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_tst</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_transform_tst&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_tst</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_fine_tst&quot;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">time_tst</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;time_tst&quot;</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">load_checkpoint_helper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">option</span><span class="p">:</span> <span class="n">ty</span><span class="o">.</span><span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;pretrain&quot;</span><span class="p">,</span> <span class="s2">&quot;last&quot;</span><span class="p">,</span> <span class="s2">&quot;best&quot;</span><span class="p">]):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Load a specific checkpoint.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            option: Specify whether to load the pretrain, last, or best checkpoint.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">option</span> <span class="o">==</span> <span class="s2">&quot;pretrain&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">load_checkpoint</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_checkpoint_pretrain_path</span><span class="p">())</span>
+        <span class="k">elif</span> <span class="n">option</span> <span class="o">==</span> <span class="s2">&quot;last&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">load_checkpoint</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_checkpoint_last_path</span><span class="p">())</span>
+        <span class="k">elif</span> <span class="n">option</span> <span class="o">==</span> <span class="s2">&quot;best&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">load_checkpoint</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_checkpoint_best_path</span><span class="p">())</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">assert</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Option not recognized.&quot;</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="aaa-net-runner.AAANetRunner.__init__" class="doc doc-heading">
+          <code class="highlight language-python"><span class="fm">__init__</span><span class="p">(</span><span class="n">exp_path</span><span class="p">)</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Initialize the AAANetRunner class.</p>
+
+
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>exp_path</code></td>
+          <td>
+                <code><span title="pathlib.Path">Path</span></code>
+          </td>
+          <td>
+            <div class="doc-md-description">
+              <p>Path to the <code>toml</code> format experiment file.</p>
+            </div>
+          </td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+          <details class="quote">
+            <summary>Source code in <code>aaa-net-runner.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 26</span>
+<span class="normal"> 27</span>
+<span class="normal"> 28</span>
+<span class="normal"> 29</span>
+<span class="normal"> 30</span>
+<span class="normal"> 31</span>
+<span class="normal"> 32</span>
+<span class="normal"> 33</span>
+<span class="normal"> 34</span>
+<span class="normal"> 35</span>
+<span class="normal"> 36</span>
+<span class="normal"> 37</span>
+<span class="normal"> 38</span>
+<span class="normal"> 39</span>
+<span class="normal"> 40</span>
+<span class="normal"> 41</span>
+<span class="normal"> 42</span>
+<span class="normal"> 43</span>
+<span class="normal"> 44</span>
+<span class="normal"> 45</span>
+<span class="normal"> 46</span>
+<span class="normal"> 47</span>
+<span class="normal"> 48</span>
+<span class="normal"> 49</span>
+<span class="normal"> 50</span>
+<span class="normal"> 51</span>
+<span class="normal"> 52</span>
+<span class="normal"> 53</span>
+<span class="normal"> 54</span>
+<span class="normal"> 55</span>
+<span class="normal"> 56</span>
+<span class="normal"> 57</span>
+<span class="normal"> 58</span>
+<span class="normal"> 59</span>
+<span class="normal"> 60</span>
+<span class="normal"> 61</span>
+<span class="normal"> 62</span>
+<span class="normal"> 63</span>
+<span class="normal"> 64</span>
+<span class="normal"> 65</span>
+<span class="normal"> 66</span>
+<span class="normal"> 67</span>
+<span class="normal"> 68</span>
+<span class="normal"> 69</span>
+<span class="normal"> 70</span>
+<span class="normal"> 71</span>
+<span class="normal"> 72</span>
+<span class="normal"> 73</span>
+<span class="normal"> 74</span>
+<span class="normal"> 75</span>
+<span class="normal"> 76</span>
+<span class="normal"> 77</span>
+<span class="normal"> 78</span>
+<span class="normal"> 79</span>
+<span class="normal"> 80</span>
+<span class="normal"> 81</span>
+<span class="normal"> 82</span>
+<span class="normal"> 83</span>
+<span class="normal"> 84</span>
+<span class="normal"> 85</span>
+<span class="normal"> 86</span>
+<span class="normal"> 87</span>
+<span class="normal"> 88</span>
+<span class="normal"> 89</span>
+<span class="normal"> 90</span>
+<span class="normal"> 91</span>
+<span class="normal"> 92</span>
+<span class="normal"> 93</span>
+<span class="normal"> 94</span>
+<span class="normal"> 95</span>
+<span class="normal"> 96</span>
+<span class="normal"> 97</span>
+<span class="normal"> 98</span>
+<span class="normal"> 99</span>
+<span class="normal">100</span>
+<span class="normal">101</span>
+<span class="normal">102</span>
+<span class="normal">103</span>
+<span class="normal">104</span>
+<span class="normal">105</span>
+<span class="normal">106</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">exp_path</span><span class="p">:</span> <span class="n">pl</span><span class="o">.</span><span class="n">Path</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Initialize the AAANetRunner class.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        exp_path: Path to the `toml` format experiment file.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">exp_path</span> <span class="o">=</span> <span class="n">exp_path</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">exp</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">Experiment</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp_path</span><span class="p">)</span>
+
+    <span class="bp">self</span><span class="o">.</span><span class="n">set_seeds</span><span class="p">()</span>
+
+    <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">AAANet</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">coarse_requires_grad</span><span class="p">(</span><span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">coarse_frozen</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">fine_requires_grad</span><span class="p">(</span><span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">fine_frozen</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">optimizer</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">optim</span><span class="o">.</span><span class="n">Adam</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">lr_initial</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">scaler</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">amp</span><span class="o">.</span><span class="n">GradScaler</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">loss_function</span> <span class="o">==</span> <span class="s2">&quot;cross_entropy&quot;</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_fn</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">CrossEntropyLoss</span><span class="p">(</span>
+            <span class="n">weight</span><span class="o">=</span><span class="n">t</span><span class="o">.</span><span class="n">Tensor</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">class_weights</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+        <span class="p">)</span>
+    <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">loss_function</span> <span class="o">==</span> <span class="s2">&quot;jaccard&quot;</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_fn</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">loss_functions</span><span class="o">.</span><span class="n">JaccardLoss</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">assert</span> <span class="kc">False</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;Loss function &#39;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">loss_function</span><span class="si">}</span><span class="s2">&#39; not recognized.&quot;</span>
+
+    <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">BasicDataset</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="p">)</span>
+
+    <span class="c1"># Training</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">dataset_trn</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">Subset</span><span class="p">(</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="p">,</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">get_trn_indices</span><span class="p">(),</span>
+    <span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">dataloader_trn</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">DataLoader</span><span class="p">(</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset_trn</span><span class="p">,</span>
+        <span class="n">batch_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span>
+        <span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+        <span class="n">num_workers</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">num_workers</span><span class="p">,</span>
+        <span class="n">pin_memory</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">pin_memory</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_trn</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_trn</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_trn</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_trn</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">time_trn</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1"># Validation</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">dataset_val</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">Subset</span><span class="p">(</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="p">,</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">get_val_indices</span><span class="p">(),</span>
+    <span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">dataloader_val</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">DataLoader</span><span class="p">(</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset_val</span><span class="p">,</span>
+        <span class="n">batch_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span>
+        <span class="n">shuffle</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+        <span class="n">num_workers</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">num_workers</span><span class="p">,</span>
+        <span class="n">pin_memory</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">pin_memory</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_val</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_val</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_val</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">time_val</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1"># Testing</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">dataset_tst</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">Subset</span><span class="p">(</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="p">,</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">get_tst_indices</span><span class="p">(),</span>
+    <span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">dataloader_tst</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">DataLoader</span><span class="p">(</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset_tst</span><span class="p">,</span>
+        <span class="n">batch_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span>
+        <span class="n">shuffle</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+        <span class="n">num_workers</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">num_workers</span><span class="p">,</span>
+        <span class="n">pin_memory</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">pin_memory</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_tst</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_tst</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_tst</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_tst</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">time_tst</span> <span class="o">=</span> <span class="p">[]</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="aaa-net-runner.AAANetRunner.load_checkpoint" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">load_checkpoint</span><span class="p">(</span><span class="n">path</span><span class="p">)</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Load checkpoint from path.</p>
+
+
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>path</code></td>
+          <td>
+                <code><span title="pathlib.Path">Path</span></code>
+          </td>
+          <td>
+            <div class="doc-md-description">
+              <p>Path to checkpoint.</p>
+            </div>
+          </td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+          <details class="quote">
+            <summary>Source code in <code>aaa-net-runner.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">328</span>
+<span class="normal">329</span>
+<span class="normal">330</span>
+<span class="normal">331</span>
+<span class="normal">332</span>
+<span class="normal">333</span>
+<span class="normal">334</span>
+<span class="normal">335</span>
+<span class="normal">336</span>
+<span class="normal">337</span>
+<span class="normal">338</span>
+<span class="normal">339</span>
+<span class="normal">340</span>
+<span class="normal">341</span>
+<span class="normal">342</span>
+<span class="normal">343</span>
+<span class="normal">344</span>
+<span class="normal">345</span>
+<span class="normal">346</span>
+<span class="normal">347</span>
+<span class="normal">348</span>
+<span class="normal">349</span>
+<span class="normal">350</span>
+<span class="normal">351</span>
+<span class="normal">352</span>
+<span class="normal">353</span>
+<span class="normal">354</span>
+<span class="normal">355</span>
+<span class="normal">356</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">load_checkpoint</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="n">pl</span><span class="o">.</span><span class="n">Path</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Load checkpoint from path.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        path: Path to checkpoint.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">checkpoint</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+
+    <span class="bp">self</span><span class="o">.</span><span class="n">epoch</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;epoch&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">load_state_dict</span><span class="p">(</span><span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;model_state_dict&quot;</span><span class="p">])</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">optimizer</span><span class="o">.</span><span class="n">load_state_dict</span><span class="p">(</span><span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;optimizer_state_dict&quot;</span><span class="p">])</span>
+
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_trn</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_coarse_trn&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_trn</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_centroid_trn&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_trn</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_transform_trn&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_trn</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_fine_trn&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">time_trn</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;time_trn&quot;</span><span class="p">]</span>
+
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_val</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_coarse_val&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_val</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_centroid_val&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_val</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_transform_val&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_fine_val&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">time_val</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;time_val&quot;</span><span class="p">]</span>
+
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_tst</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_coarse_tst&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_tst</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_centroid_tst&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_tst</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_transform_tst&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_tst</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;loss_seg_fine_tst&quot;</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">time_tst</span> <span class="o">=</span> <span class="n">checkpoint</span><span class="p">[</span><span class="s2">&quot;time_tst&quot;</span><span class="p">]</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="aaa-net-runner.AAANetRunner.load_checkpoint_helper" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">load_checkpoint_helper</span><span class="p">(</span><span class="n">option</span><span class="p">)</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Load a specific checkpoint.</p>
+
+
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>option</code></td>
+          <td>
+                <code><span title="typing.Literal">Literal</span>[&#39;pretrain&#39;, &#39;last&#39;, &#39;best&#39;]</code>
+          </td>
+          <td>
+            <div class="doc-md-description">
+              <p>Specify whether to load the pretrain, last, or best checkpoint.</p>
+            </div>
+          </td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+          <details class="quote">
+            <summary>Source code in <code>aaa-net-runner.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">358</span>
+<span class="normal">359</span>
+<span class="normal">360</span>
+<span class="normal">361</span>
+<span class="normal">362</span>
+<span class="normal">363</span>
+<span class="normal">364</span>
+<span class="normal">365</span>
+<span class="normal">366</span>
+<span class="normal">367</span>
+<span class="normal">368</span>
+<span class="normal">369</span>
+<span class="normal">370</span>
+<span class="normal">371</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">load_checkpoint_helper</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">option</span><span class="p">:</span> <span class="n">ty</span><span class="o">.</span><span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;pretrain&quot;</span><span class="p">,</span> <span class="s2">&quot;last&quot;</span><span class="p">,</span> <span class="s2">&quot;best&quot;</span><span class="p">]):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Load a specific checkpoint.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        option: Specify whether to load the pretrain, last, or best checkpoint.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">option</span> <span class="o">==</span> <span class="s2">&quot;pretrain&quot;</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">load_checkpoint</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_checkpoint_pretrain_path</span><span class="p">())</span>
+    <span class="k">elif</span> <span class="n">option</span> <span class="o">==</span> <span class="s2">&quot;last&quot;</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">load_checkpoint</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_checkpoint_last_path</span><span class="p">())</span>
+    <span class="k">elif</span> <span class="n">option</span> <span class="o">==</span> <span class="s2">&quot;best&quot;</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">load_checkpoint</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_checkpoint_best_path</span><span class="p">())</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">assert</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Option not recognized.&quot;</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="aaa-net-runner.AAANetRunner.run_epoch" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">run_epoch</span><span class="p">(</span><span class="n">mode</span><span class="p">,</span> <span class="n">show</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Run a single epoch.</p>
+
+
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>mode</code></td>
+          <td>
+                <code><span title="typing.Literal">Literal</span>[&#39;trn&#39;, &#39;val&#39;, &#39;tst&#39;]</code>
+          </td>
+          <td>
+            <div class="doc-md-description">
+              <p>Specify training, validation, or testing.</p>
+            </div>
+          </td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>show</code></td>
+          <td>
+                <code>bool</code>
+          </td>
+          <td>
+            <div class="doc-md-description">
+              <p>Specify whether to display the result.</p>
+            </div>
+          </td>
+          <td>
+                <code>False</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+          <details class="quote">
+            <summary>Source code in <code>aaa-net-runner.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">138</span>
+<span class="normal">139</span>
+<span class="normal">140</span>
+<span class="normal">141</span>
+<span class="normal">142</span>
+<span class="normal">143</span>
+<span class="normal">144</span>
+<span class="normal">145</span>
+<span class="normal">146</span>
+<span class="normal">147</span>
+<span class="normal">148</span>
+<span class="normal">149</span>
+<span class="normal">150</span>
+<span class="normal">151</span>
+<span class="normal">152</span>
+<span class="normal">153</span>
+<span class="normal">154</span>
+<span class="normal">155</span>
+<span class="normal">156</span>
+<span class="normal">157</span>
+<span class="normal">158</span>
+<span class="normal">159</span>
+<span class="normal">160</span>
+<span class="normal">161</span>
+<span class="normal">162</span>
+<span class="normal">163</span>
+<span class="normal">164</span>
+<span class="normal">165</span>
+<span class="normal">166</span>
+<span class="normal">167</span>
+<span class="normal">168</span>
+<span class="normal">169</span>
+<span class="normal">170</span>
+<span class="normal">171</span>
+<span class="normal">172</span>
+<span class="normal">173</span>
+<span class="normal">174</span>
+<span class="normal">175</span>
+<span class="normal">176</span>
+<span class="normal">177</span>
+<span class="normal">178</span>
+<span class="normal">179</span>
+<span class="normal">180</span>
+<span class="normal">181</span>
+<span class="normal">182</span>
+<span class="normal">183</span>
+<span class="normal">184</span>
+<span class="normal">185</span>
+<span class="normal">186</span>
+<span class="normal">187</span>
+<span class="normal">188</span>
+<span class="normal">189</span>
+<span class="normal">190</span>
+<span class="normal">191</span>
+<span class="normal">192</span>
+<span class="normal">193</span>
+<span class="normal">194</span>
+<span class="normal">195</span>
+<span class="normal">196</span>
+<span class="normal">197</span>
+<span class="normal">198</span>
+<span class="normal">199</span>
+<span class="normal">200</span>
+<span class="normal">201</span>
+<span class="normal">202</span>
+<span class="normal">203</span>
+<span class="normal">204</span>
+<span class="normal">205</span>
+<span class="normal">206</span>
+<span class="normal">207</span>
+<span class="normal">208</span>
+<span class="normal">209</span>
+<span class="normal">210</span>
+<span class="normal">211</span>
+<span class="normal">212</span>
+<span class="normal">213</span>
+<span class="normal">214</span>
+<span class="normal">215</span>
+<span class="normal">216</span>
+<span class="normal">217</span>
+<span class="normal">218</span>
+<span class="normal">219</span>
+<span class="normal">220</span>
+<span class="normal">221</span>
+<span class="normal">222</span>
+<span class="normal">223</span>
+<span class="normal">224</span>
+<span class="normal">225</span>
+<span class="normal">226</span>
+<span class="normal">227</span>
+<span class="normal">228</span>
+<span class="normal">229</span>
+<span class="normal">230</span>
+<span class="normal">231</span>
+<span class="normal">232</span>
+<span class="normal">233</span>
+<span class="normal">234</span>
+<span class="normal">235</span>
+<span class="normal">236</span>
+<span class="normal">237</span>
+<span class="normal">238</span>
+<span class="normal">239</span>
+<span class="normal">240</span>
+<span class="normal">241</span>
+<span class="normal">242</span>
+<span class="normal">243</span>
+<span class="normal">244</span>
+<span class="normal">245</span>
+<span class="normal">246</span>
+<span class="normal">247</span>
+<span class="normal">248</span>
+<span class="normal">249</span>
+<span class="normal">250</span>
+<span class="normal">251</span>
+<span class="normal">252</span>
+<span class="normal">253</span>
+<span class="normal">254</span>
+<span class="normal">255</span>
+<span class="normal">256</span>
+<span class="normal">257</span>
+<span class="normal">258</span>
+<span class="normal">259</span>
+<span class="normal">260</span>
+<span class="normal">261</span>
+<span class="normal">262</span>
+<span class="normal">263</span>
+<span class="normal">264</span>
+<span class="normal">265</span>
+<span class="normal">266</span>
+<span class="normal">267</span>
+<span class="normal">268</span>
+<span class="normal">269</span>
+<span class="normal">270</span>
+<span class="normal">271</span>
+<span class="normal">272</span>
+<span class="normal">273</span>
+<span class="normal">274</span>
+<span class="normal">275</span>
+<span class="normal">276</span>
+<span class="normal">277</span>
+<span class="normal">278</span>
+<span class="normal">279</span>
+<span class="normal">280</span>
+<span class="normal">281</span>
+<span class="normal">282</span>
+<span class="normal">283</span>
+<span class="normal">284</span>
+<span class="normal">285</span>
+<span class="normal">286</span>
+<span class="normal">287</span>
+<span class="normal">288</span>
+<span class="normal">289</span>
+<span class="normal">290</span>
+<span class="normal">291</span>
+<span class="normal">292</span>
+<span class="normal">293</span>
+<span class="normal">294</span>
+<span class="normal">295</span>
+<span class="normal">296</span>
+<span class="normal">297</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">run_epoch</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">:</span> <span class="n">ty</span><span class="o">.</span><span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;trn&quot;</span><span class="p">,</span> <span class="s2">&quot;val&quot;</span><span class="p">,</span> <span class="s2">&quot;tst&quot;</span><span class="p">],</span> <span class="n">show</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Run a single epoch.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        mode: Specify training, validation, or testing.</span>
+<span class="sd">        show: Specify whether to display the result.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">assert</span> <span class="n">mode</span> <span class="ow">in</span> <span class="p">{</span><span class="s2">&quot;trn&quot;</span><span class="p">,</span> <span class="s2">&quot;val&quot;</span><span class="p">,</span> <span class="s2">&quot;tst&quot;</span><span class="p">},</span> <span class="s2">&quot;Mode not recognized.&quot;</span>
+
+    <span class="k">if</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;trn&quot;</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">train</span><span class="p">()</span>
+        <span class="n">loop</span> <span class="o">=</span> <span class="n">tqdm</span><span class="o">.</span><span class="n">tqdm</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dataloader_trn</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">augmentation</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">augmentation</span>
+    <span class="k">elif</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;val&quot;</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">eval</span><span class="p">()</span>
+        <span class="n">loop</span> <span class="o">=</span> <span class="n">tqdm</span><span class="o">.</span><span class="n">tqdm</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dataloader_val</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">augmentation</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="k">elif</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;tst&quot;</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">eval</span><span class="p">()</span>
+        <span class="n">loop</span> <span class="o">=</span> <span class="n">tqdm</span><span class="o">.</span><span class="n">tqdm</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dataloader_tst</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dataset</span><span class="o">.</span><span class="n">augmentation</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">assert</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Mode not recognized.&quot;</span>
+
+    <span class="n">N</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">loop</span><span class="p">)</span>
+
+    <span class="n">loop</span><span class="o">.</span><span class="n">set_postfix</span><span class="p">(</span><span class="n">epoch</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">epoch</span><span class="p">)</span>
+    <span class="n">epoch_seg_coarse_loss</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">epoch_centroid_loss</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">epoch_transform_loss</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">epoch_seg_fine_loss</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="n">start_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">perf_counter</span><span class="p">()</span>
+
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">gt</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">loop</span><span class="p">):</span>
+        <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;img&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;img&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+        <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+        <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg_coarse&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">functional</span><span class="o">.</span><span class="n">grid_sample</span><span class="p">(</span>
+            <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg&quot;</span><span class="p">],</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">coarse_points</span><span class="p">,</span>
+            <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;bilinear&quot;</span><span class="p">,</span>
+            <span class="n">align_corners</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="n">transform</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">geometry</span><span class="o">.</span><span class="n">transform_from_seg</span><span class="p">(</span>
+            <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg_coarse&quot;</span><span class="p">][:,</span> <span class="mi">1</span><span class="p">:,</span> <span class="p">:]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_new_axis</span><span class="p">()</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">),</span>
+        <span class="p">)</span>
+
+        <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;transform&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">rm</span><span class="o">.</span><span class="n">RigidUnitQuat</span><span class="p">(</span>
+            <span class="n">linear</span><span class="o">=</span><span class="n">transform</span><span class="p">[</span><span class="s2">&quot;quaternion&quot;</span><span class="p">],</span> <span class="n">translation</span><span class="o">=</span><span class="n">transform</span><span class="p">[</span><span class="s2">&quot;centroid&quot;</span><span class="p">]</span>
+        <span class="p">)</span>
+
+        <span class="c1"># Forward</span>
+        <span class="k">with</span> <span class="n">t</span><span class="o">.</span><span class="n">inference_mode</span><span class="p">(</span><span class="n">mode</span> <span class="ow">in</span> <span class="p">{</span><span class="s2">&quot;val&quot;</span><span class="p">,</span> <span class="s2">&quot;tst&quot;</span><span class="p">}):</span>
+            <span class="k">with</span> <span class="n">t</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">amp</span><span class="o">.</span><span class="n">autocast</span><span class="p">():</span>
+                <span class="n">pd</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="p">(</span><span class="n">gt</span><span class="p">[</span><span class="s2">&quot;img&quot;</span><span class="p">])</span>
+
+                <span class="c1"># Upsample segmentation to original resolution.</span>
+                <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;coarse_upsampled&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">functional</span><span class="o">.</span><span class="n">grid_sample</span><span class="p">(</span>
+                    <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;coarse&quot;</span><span class="p">],</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">input_points</span><span class="p">,</span>
+                    <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;bilinear&quot;</span><span class="p">,</span>
+                    <span class="n">align_corners</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                    <span class="n">padding_mode</span><span class="o">=</span><span class="s2">&quot;border&quot;</span><span class="p">,</span>
+                <span class="p">)</span>
+                <span class="k">if</span> <span class="n">show</span><span class="p">:</span>
+                    <span class="n">dv</span><span class="o">.</span><span class="n">visualization</span><span class="o">.</span><span class="n">Viewer3D</span><span class="p">(</span>
+                        <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;img&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">cpu</span><span class="p">(),</span>
+                        <span class="n">t</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">pd</span><span class="p">[</span><span class="s2">&quot;coarse_upsampled&quot;</span><span class="p">],</span> <span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">cpu</span><span class="p">(),</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">labels</span><span class="p">,</span>
+                        <span class="n">slices</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+                    <span class="p">)</span>
+                <span class="n">seg_coarse_loss</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_fn</span><span class="p">(</span><span class="n">pd</span><span class="p">[</span><span class="s2">&quot;coarse_upsampled&quot;</span><span class="p">],</span> <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg&quot;</span><span class="p">])</span>
+
+                <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;transform_i&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;transform&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">normalize</span><span class="p">()</span><span class="o">.</span><span class="n">inverse</span><span class="p">()</span>
+
+                <span class="n">fp_i</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">calculate_fine_points</span><span class="p">(</span>
+                    <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;transform_i&quot;</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">input_shape</span><span class="p">(),</span> <span class="n">inverse</span><span class="o">=</span><span class="kc">True</span>
+                <span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+
+                <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;fine_upsampled&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">functional</span><span class="o">.</span><span class="n">grid_sample</span><span class="p">(</span>
+                    <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;fine&quot;</span><span class="p">],</span>
+                    <span class="n">fp_i</span><span class="p">,</span>
+                    <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;bilinear&quot;</span><span class="p">,</span>
+                    <span class="n">align_corners</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                    <span class="n">padding_mode</span><span class="o">=</span><span class="s2">&quot;border&quot;</span><span class="p">,</span>
+                <span class="p">)</span>
+                <span class="k">if</span> <span class="n">show</span><span class="p">:</span>
+                    <span class="n">fp</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">calculate_fine_points</span><span class="p">(</span>
+                        <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;transform&quot;</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">fine_shape</span>
+                    <span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+                    <span class="n">img_fine</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">functional</span><span class="o">.</span><span class="n">grid_sample</span><span class="p">(</span>
+                        <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;img&quot;</span><span class="p">],</span> <span class="n">fp</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;bilinear&quot;</span><span class="p">,</span> <span class="n">align_corners</span><span class="o">=</span><span class="kc">False</span>
+                    <span class="p">)</span>
+                    <span class="n">dv</span><span class="o">.</span><span class="n">visualization</span><span class="o">.</span><span class="n">Viewer3D</span><span class="p">(</span>
+                        <span class="n">img_fine</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">cpu</span><span class="p">(),</span>
+                        <span class="n">t</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">pd</span><span class="p">[</span><span class="s2">&quot;fine&quot;</span><span class="p">],</span> <span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">cpu</span><span class="p">(),</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">labels</span><span class="p">,</span>
+                        <span class="n">slices</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+                    <span class="p">)</span>
+
+                <span class="n">seg_fine_loss</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_fn</span><span class="p">(</span><span class="n">pd</span><span class="p">[</span><span class="s2">&quot;fine_upsampled&quot;</span><span class="p">],</span> <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;seg&quot;</span><span class="p">])</span>
+                <span class="n">seg_fine_loss_weight</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">fine_loss_weight</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">epoch</span><span class="p">)</span>
+
+                <span class="n">sum_loss</span> <span class="o">=</span> <span class="p">(</span>
+                    <span class="n">seg_coarse_loss</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">seg_fine_loss_weight</span><span class="p">)</span>
+                    <span class="o">+</span> <span class="n">seg_fine_loss</span> <span class="o">*</span> <span class="n">seg_fine_loss_weight</span>
+                <span class="p">)</span>
+
+                <span class="n">centroid_error</span> <span class="o">=</span> <span class="p">(</span>
+                    <span class="n">gt</span><span class="p">[</span><span class="s2">&quot;transform&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">translation</span> <span class="o">-</span> <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;transform&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">translation</span>
+                <span class="p">)</span>
+                <span class="n">centroid_error</span> <span class="o">=</span> <span class="n">centroid_error</span><span class="o">.</span><span class="n">flip</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+                <span class="n">centroid_error</span> <span class="o">=</span> <span class="n">centroid_error</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">coarse_fov</span> <span class="o">/</span> <span class="mi">2</span>
+                <span class="n">centroid_error</span> <span class="o">=</span> <span class="n">centroid_error</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+
+                <span class="n">angle_error</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">geometry</span><span class="o">.</span><span class="n">angle</span><span class="p">(</span>
+                    <span class="n">pd</span><span class="p">[</span><span class="s2">&quot;axis&quot;</span><span class="p">],</span> <span class="n">transform</span><span class="p">[</span><span class="s2">&quot;axis&quot;</span><span class="p">]</span>
+                <span class="p">)</span><span class="o">.</span><span class="n">squeeze</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+
+                <span class="n">epoch_seg_coarse_loss</span> <span class="o">+=</span> <span class="n">seg_coarse_loss</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+                <span class="n">epoch_centroid_loss</span> <span class="o">+=</span> <span class="n">centroid_error</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+                <span class="n">epoch_transform_loss</span> <span class="o">+=</span> <span class="n">angle_error</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+                <span class="n">epoch_seg_fine_loss</span> <span class="o">+=</span> <span class="n">seg_fine_loss</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+
+        <span class="c1"># Backward</span>
+        <span class="k">if</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;trn&quot;</span><span class="p">:</span>
+            <span class="n">sum_loss_scale</span> <span class="o">=</span> <span class="n">dv</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">uneven_batch_size</span><span class="p">(</span>
+                <span class="n">i</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">batch_size_virtual</span><span class="p">,</span> <span class="n">N</span>
+            <span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">scaler</span><span class="o">.</span><span class="n">scale</span><span class="p">(</span><span class="n">sum_loss</span> <span class="o">/</span> <span class="n">sum_loss_scale</span><span class="p">)</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>
+            <span class="k">if</span> <span class="p">((</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">batch_size_virtual</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">((</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="n">N</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">scaler</span><span class="o">.</span><span class="n">step</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">optimizer</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">scaler</span><span class="o">.</span><span class="n">update</span><span class="p">()</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">optimizer</span><span class="o">.</span><span class="n">zero_grad</span><span class="p">()</span>
+
+    <span class="n">epoch_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">perf_counter</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span>
+
+    <span class="k">if</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;trn&quot;</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_trn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_coarse_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_trn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_centroid_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_trn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_transform_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_trn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_fine_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">time_trn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_time</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;val&quot;</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_val</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_coarse_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_val</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_centroid_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_val</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_transform_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_fine_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">time_val</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_time</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">mode</span> <span class="o">==</span> <span class="s2">&quot;tst&quot;</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_tst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_coarse_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_tst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_centroid_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_tst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_transform_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_tst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_seg_fine_loss</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">time_tst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">epoch_time</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">assert</span> <span class="kc">False</span><span class="p">,</span> <span class="s2">&quot;Mode not recognized.&quot;</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="aaa-net-runner.AAANetRunner.save_checkpoint" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">save_checkpoint</span><span class="p">()</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Save <code>checkpoint_last</code> (always).  Additionally save <code>checkpoint_best</code> if this run represents the lowest recorded validation error (or if none has been previously recorded).</p>
+
+          <details class="quote">
+            <summary>Source code in <code>aaa-net-runner.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">299</span>
+<span class="normal">300</span>
+<span class="normal">301</span>
+<span class="normal">302</span>
+<span class="normal">303</span>
+<span class="normal">304</span>
+<span class="normal">305</span>
+<span class="normal">306</span>
+<span class="normal">307</span>
+<span class="normal">308</span>
+<span class="normal">309</span>
+<span class="normal">310</span>
+<span class="normal">311</span>
+<span class="normal">312</span>
+<span class="normal">313</span>
+<span class="normal">314</span>
+<span class="normal">315</span>
+<span class="normal">316</span>
+<span class="normal">317</span>
+<span class="normal">318</span>
+<span class="normal">319</span>
+<span class="normal">320</span>
+<span class="normal">321</span>
+<span class="normal">322</span>
+<span class="normal">323</span>
+<span class="normal">324</span>
+<span class="normal">325</span>
+<span class="normal">326</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">save_checkpoint</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Save `checkpoint_last` (always).  Additionally save `checkpoint_best` if this run represents the lowest recorded validation error (or if none has been previously recorded).&quot;&quot;&quot;</span>
+    <span class="n">checkpoint</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;epoch&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">epoch</span><span class="p">,</span>
+        <span class="s2">&quot;model_state_dict&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">state_dict</span><span class="p">(),</span>
+        <span class="s2">&quot;optimizer_state_dict&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">optimizer</span><span class="o">.</span><span class="n">state_dict</span><span class="p">(),</span>
+        <span class="s2">&quot;loss_seg_coarse_trn&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_trn</span><span class="p">,</span>
+        <span class="s2">&quot;loss_centroid_trn&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_trn</span><span class="p">,</span>
+        <span class="s2">&quot;loss_transform_trn&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_trn</span><span class="p">,</span>
+        <span class="s2">&quot;loss_seg_fine_trn&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_trn</span><span class="p">,</span>
+        <span class="s2">&quot;time_trn&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">time_trn</span><span class="p">,</span>
+        <span class="s2">&quot;loss_seg_coarse_val&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_val</span><span class="p">,</span>
+        <span class="s2">&quot;loss_centroid_val&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_val</span><span class="p">,</span>
+        <span class="s2">&quot;loss_transform_val&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_val</span><span class="p">,</span>
+        <span class="s2">&quot;loss_seg_fine_val&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="p">,</span>
+        <span class="s2">&quot;time_val&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">time_val</span><span class="p">,</span>
+        <span class="s2">&quot;loss_seg_coarse_tst&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_tst</span><span class="p">,</span>
+        <span class="s2">&quot;loss_centroid_tst&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_tst</span><span class="p">,</span>
+        <span class="s2">&quot;loss_transform_tst&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_tst</span><span class="p">,</span>
+        <span class="s2">&quot;loss_seg_fine_tst&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_tst</span><span class="p">,</span>
+        <span class="s2">&quot;time_tst&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">time_tst</span><span class="p">,</span>
+    <span class="p">}</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">checkpoint</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_checkpoint_last_path</span><span class="p">())</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="ow">or</span> <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;</span> <span class="nb">min</span><span class="p">(</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;New lowest validation loss; saving checkpoint.&quot;</span><span class="p">)</span>
+        <span class="n">t</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">checkpoint</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">get_checkpoint_best_path</span><span class="p">())</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="aaa-net-runner.AAANetRunner.set_seeds" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">set_seeds</span><span class="p">()</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Set PyTorch, Numpy, and Python seeds to reduce stochastic effects.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>aaa-net-runner.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">108</span>
+<span class="normal">109</span>
+<span class="normal">110</span>
+<span class="normal">111</span>
+<span class="normal">112</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">set_seeds</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Set PyTorch, Numpy, and Python seeds to reduce stochastic effects.&quot;&quot;&quot;</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">manual_seed</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">seed</span><span class="p">)</span>
+    <span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">seed</span><span class="p">)</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">seed</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="aaa-net-runner.AAANetRunner.test" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">test</span><span class="p">()</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Run on the test set.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>aaa-net-runner.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">128</span>
+<span class="normal">129</span>
+<span class="normal">130</span>
+<span class="normal">131</span>
+<span class="normal">132</span>
+<span class="normal">133</span>
+<span class="normal">134</span>
+<span class="normal">135</span>
+<span class="normal">136</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Run on the test set.&quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">run_epoch</span><span class="p">(</span><span class="s2">&quot;tst&quot;</span><span class="p">,</span> <span class="n">show</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">save_checkpoint</span><span class="p">()</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Coarse loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_tst</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Centroid loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_tst</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Transform loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_tst</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Fine loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_tst</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h3 id="aaa-net-runner.AAANetRunner.train" class="doc doc-heading">
+          <code class="highlight language-python"><span class="n">train</span><span class="p">()</span></code>
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Alternate between training and validation runs for the number of epochs specified in the experiment file.</p>
+
+          <details class="quote">
+            <summary>Source code in <code>aaa-net-runner.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">114</span>
+<span class="normal">115</span>
+<span class="normal">116</span>
+<span class="normal">117</span>
+<span class="normal">118</span>
+<span class="normal">119</span>
+<span class="normal">120</span>
+<span class="normal">121</span>
+<span class="normal">122</span>
+<span class="normal">123</span>
+<span class="normal">124</span>
+<span class="normal">125</span>
+<span class="normal">126</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">train</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Alternate between training and validation runs for the number of epochs specified in the experiment file.&quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">dir_output</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exp</span><span class="o">.</span><span class="n">epochs</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">epoch</span> <span class="o">=</span> <span class="n">e</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">run_epoch</span><span class="p">(</span><span class="s2">&quot;trn&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">run_epoch</span><span class="p">(</span><span class="s2">&quot;val&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">save_checkpoint</span><span class="p">()</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Coarse loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_coarse_val</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Centroid loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_centroid_val</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Transform loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_transform_val</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Fine loss: </span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">loss_seg_fine_val</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="si">:</span><span class="s2">.4</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+
+</div>
+
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.bd41221c.min.js"></script>
+      
+    
+  </body>
+</html>
